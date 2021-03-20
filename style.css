@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.logo {
+  background: grey;
+  display: inline-block;
+  float: left;
+  margin-top: 3px;
+}
+.logo > img {
+  height: 26px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+ul,
+li {
+  list-style: none;
+}
+ul > li {
+  float: left;
+  padding: 4px 0.5em;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ul {
+  float: left;
+  display: inline-block;
+}
+.nav {
+  float: right;
+}
+header {
+  outline: 1px solid black;
+  background: grey;
+  color: white;
+}
+.content {
+  width: 800px;
+  outline: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content > aside {
+  width: 190px;
+  outline: 1px solid red;
+  height: 300px;
+  float: left;
+  background: grey;
+}
+.content > main {
+  width: 500px;
+  outline: 1px solid green;
+  height: 300px;
+  float: left;
+  background: yellow;
+}
+.content > .ad {
+  outline: 1px solid blue;
+  height: 300px;
+  width: 110px;
+  float: left;
+  background: grey;
+}
+.imagelist {
+  outline: 1px solid yellow;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imagelist > .x > .image {
+  width: 191px;
+  height: 191px;
+  outline: 1px solid red;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  background: grey;
+}
+.imagelist > .x {
+  margin-right: -12px;
+}
